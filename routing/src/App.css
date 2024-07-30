@@ -1,0 +1,118 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; /* Adjust padding as needed */
+  background-color: #fa8484; /* Background color of the navbar */
+  color: white; /* Text color */
+  width: 100%;
+  position: fixed; /* Fix the navbar at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.navbar-title {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  gap: 1rem; /* Spacing between the links */
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.links a:hover {
+  background-color: #e9ffa0; /* Hover effect background color */
+  color: #fff; /* Hover effect text color */
+}
+/* Home.css */
+.home {
+  margin-top: 4rem; /* Adjust this value based on the height of your navbar */
+  padding: 1rem;
+}
+/* About.css */
+.about {
+  margin-top: 4rem; /* Adjust this value based on the height of your navbar */
+  padding: 1rem;
+}
+.blog{
+  margin-top: 4rem;
+  padding: 1rem;
+}
+/* Footer.css */
+.footer {
+  background-color: #333; /* Dark background color */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 1rem 0; /* Padding at the top and bottom */
+  position: fixed; /* Fix the footer at the bottom of the page */
+  width: 100%; /* Ensure the footer spans the full width */
+  bottom: 0; /* Position the footer at the bottom */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  font-size: 1rem; /* Font size for the text */
+}
+
+/* Contact.css */
+.contact {
+  margin-top: 4rem; /* Adjust this value based on the height of your navbar */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-form label {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.contact-form button:hover {
+  background-color: #575757;
+}
